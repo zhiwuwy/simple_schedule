@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @EnableElasticJob
-@ComponentScan(basePackages = {"cn.enjoy.jobs.business"})
+@ComponentScan(basePackages = {"cn.enjoy.jobs.elasticjob"})
 public class ElasticJobApp2 {
     public static void main(String[] args) {
 

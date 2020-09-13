@@ -5,9 +5,8 @@ import com.cxytiandi.elasticjob.annotation.ElasticJobConf;
 import com.dangdang.ddframe.job.api.ShardingContext;
 import com.dangdang.ddframe.job.api.simple.SimpleJob;
 import org.springframework.beans.factory.annotation.Autowired;
-
-@ElasticJobConf(name = "EnjoyJob") //跟配置里的elastic.job.EnjoyJob对应
-public class EnjoySimpleJob implements SimpleJob {
+@ElasticJobConf(name = "EnjoyJob")
+public class MySimpleJob implements SimpleJob {
 	@Autowired
 	private EnjoyBusiness enjoyBusiness;
 
